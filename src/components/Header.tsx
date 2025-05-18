@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, BrainCog, Search, Moon, Sun } from 'lucide-react';
-import { useAppContext } from '../context/AppContext';
 
 interface HeaderProps {
   setSidebarOpen: (open: boolean) => void;
